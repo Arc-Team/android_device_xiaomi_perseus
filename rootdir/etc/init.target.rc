@@ -36,6 +36,9 @@ on fs
     # Enable ZRAM
     swapon_all /vendor/etc/fstab.qcom
 
+    # GnssConfiguration doesn't actually look at gps.conf, just the debug file
+    mount none /system/etc/gps.conf /system/etc/gps_debug.conf bind
+
     chmod 644 /mnt/vendor/persist/audio/us_manual_cal
     chmod 644 /persist/audio/us_manual_cal
 
