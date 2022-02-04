@@ -23,4 +23,10 @@
     <!-- Radius of the software rounded corners at the bottom of the display in its natural
         orientation. If zero, the value of rounded_corner_radius is used. -->
     <dimen name="rounded_corner_radius_bottom">85.0px</dimen>
+
+    <!-- This device has rounded corners and to match with device style
+        apply custom status bar height. -->
+    <dimen name="status_bar_height">32dp</dimen>
+    <dimen name="status_bar_height_portrait">32dp</dimen>
+    <dimen name="status_bar_height_landscape">32dp</dimen>
 </resources>
